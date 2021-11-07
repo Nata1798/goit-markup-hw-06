@@ -387,12 +387,10 @@
                     </li>
                 </ul>
             </div>
-            <span action="#" class="footer-form">
+            <form action="#" class="footer-form">
                 <p class="footer-form-title">Подпишитесь на рассылку</p>
                 <div class="footer-form-content">
-                    <label for="" class="footer-form-label">
                         <input type="gmail" name="user-gmail" class="futer-form-input" placeholder="E-mail"/>
-                    </label>
                     <button type="submit" class="footer-form-button">
                         Вставить
                         <svg class="footer-form-button-icon">
@@ -411,7 +409,7 @@
                     <use href="./image/sprite.svg.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
-            <form action="#" class="modal-form" name="feedback-form" autocomplete="on" validate>
+            <form action="#" class="modal-form" name="feedback-form" autocomplete="on">
                 <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
                 <label class="modal-form-label"> 
                     Имя
@@ -425,7 +423,7 @@
                 <label class="modal-form-label"> 
                     Телефон
                     <span class="modal-form-container">
-                        <input class="modal-form-input" type="tell" name="user-tell" />
+                        <input class="modal-form-input" type="tel" name="user-tel" />
                         <svg class="modal-form-icon" width="18px" height="18px">
                             <use href="./image/sprite.svg.svg#icon-Vector"></use>
                         </svg>  
@@ -440,9 +438,9 @@
                         </svg>  
                     </span>    
                 </label>
-                <label for="" class="modal-form-label"> 
+                <label class="modal-form-label"> 
                     Комментарий
-                    <textarea class="modal-form-input modal-form-textarea" type="text" name="user-message" placeholder="Введите текст"></textarea>
+                    <textarea class="modal-form-input modal-form-textarea" name="user-message" placeholder="Введите текст"></textarea>
                 </label>
                     <input class="modal-form-checkbox-input-agreement visually-hidden" type="checkbox" name="agreement" id="accept-policy"/>
                     <label for="accept-policy" class="modal-form-chceckbox-accept"> Соглашаюсь с рассылкой и принимаю <a class="modal-form-checkbox-agree" href="#" target="_blank" title="" >Условия договора</a></label>
